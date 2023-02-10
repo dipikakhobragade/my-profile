@@ -4,41 +4,67 @@
 <head>
     <title> Index</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        #name {
+            color: brown;
+            background-color: rgb(247, 216, 204);
+            margin-right: 10px;
+        }
+
+        .icon {
+            margin-right: 10px;
+        }
+
+        #follow {
+            font-size: large;
+            color: brown;
+        }
+
+        .socialMedia {
+            margin-right: 10px;
+        }
+
+        /* #linkedin{margin-right: 10px;}
+        #google{margin-right: 10px;}
+        #facebook{margin-right: 10px;} */
+    </style>
 
 </head>
 
 <body>
     <header>
-        <i class="fa fa-user" aria-hidden="true"></i><strong> Dipika Khobragade</strong> &nbsp;&nbsp;&nbsp;
-        <i class="fa fa-phone-square" aria-hidden="true"></i><strong> 9860901442 </strong>&nbsp;&nbsp;&nbsp;
-        <i class="fa fa-envelope" aria-hidden="true"></i><strong> sk.dipika@gmail.com </strong>
+        <i class="fa fa-user" aria-hidden="true"></i><strong id="name"> Dipika Khobragade</strong>
+        <i class="fa fa-phone-square" aria-hidden="true"></i><strong id="name"> 9860901442 </strong>
+        <i class="fa fa-envelope" aria-hidden="true"></i><strong id="name"> sk.dipika@gmail.com </strong>
     </header>
     <br>
     <br>
 
-    <nav><a href="home.html" target="myFrame"><b>HOME</b></a> &nbsp;&nbsp;
-        <a href="personalDetails.html" target="myFrame"><b>PERSONAL DETAILS</b></a> &nbsp;&nbsp;
+    <nav><a href="home.html" target="myFrame"><b class="icon">HOME</b></a>
+        <a href="personalDetails.html" target="myFrame"><b class="icon">PERSONAL DETAILS</b></a>
 
-        <a href="techStack.html" target="myFrame"> <b>TECH STACK</b> </a> &nbsp;&nbsp;
-        <a href="education.html" target="myFrame"> <b>EDUCATION</b> </a> &nbsp; &nbsp;
-        <a href="contactus.html" target="myFrame"> <b>CONTACT US</b> </a>
+        <a href="techStack.html" target="myFrame"> <b class="icon">TECH STACK</b> </a>
+        <a href="education.html" target="myFrame"> <b class="icon">EDUCATION</b> </a>
+        <a href="contactus.html" target="myFrame"> <b class="icon">CONTACT US</b> </a>
 
     </nav>
 
     <br> <br>
-    <iframe width="1050px" height="500px" name="myFrame">
+    <iframe width="1050px" height="500px" name="myFrame" src="home.html">
 
     </iframe>
     <footer>
-        <strong> Follow Me : &nbsp;&nbsp;</strong>
-        <a href="https://in.linkedin.com/"><i class="fa fa-linkedin-square fa-lg" aria-hidden="true"></i></a>
-        &nbsp;&nbsp;
-        <a href="https://www.google.com/" target="_blank"><i class="fa fa-google fa-lg" aria-hidden="true"></i></a>
-        &nbsp;&nbsp;
+        <strong id="follow"> Follow Me :</strong>
+        <a href="https://in.linkedin.com/" class="socialMedia" target="_blank"><i class="fa fa-linkedin-square fa-lg"
+                aria-hidden="true"></i></a>
 
-        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square fa-lg"
-                aria-hidden="true"></i> </a> &nbsp;&nbsp;
-        <a href="https://www.instagram.com/" target="_blank"> <i class="fa fa-instagram fa-lg" aria-hidden="true"></i>
+        <a href="https://www.google.com/" class="socialMedia" target="_blank"><i class="fa fa-google fa-lg"
+                aria-hidden="true"></i></a>
+
+        <a href="https://www.facebook.com/" class="socialMedia" target="_blank"><i class="fa fa-facebook-square fa-lg"
+                aria-hidden="true"></i> </a>
+        <a href="https://www.instagram.com/" class="socialMedia" target="_blank"> <i class="fa fa-instagram fa-lg"
+                aria-hidden="true"></i>
         </a>
 
 
